@@ -25,3 +25,13 @@ public class AccessModifier {
     }
 
 }
+class icon{
+	public static void main(String[] args) {
+		AccessModifier acc=new AccessModifier();
+		System.out.println(acc.defalutvar);
+		System.out.println(acc.protectedvar);
+		System.out.println(acc.publicvar);
+		//private variable cannot access outside of the class
+		//System.out.println(acc.privatevar);
+	}
+}
