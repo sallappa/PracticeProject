@@ -39,5 +39,4 @@ public class Dog {
         System.out.println(scott.toString()); 
     } 
 
-
 }
